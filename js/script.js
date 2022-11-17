@@ -6,7 +6,7 @@ calcular.addEventListener("click", () => {
     tabuada.innerHTML = "";
 
     if(Number(valor.value) < 0 || Number(valor.value) > 10 || valor.value == "") {
-        tabuada.innerHTML = "Insira um número entre 0 e 10";
+        tabuada.innerHTML = "Insira um número entre 0 e 10 🤐";
     }
     else {
 
