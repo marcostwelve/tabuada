@@ -23,3 +23,8 @@ calcular.addEventListener("click", () => {
         }
     }
 });
+
+function limpar() {
+    valor.value = "";
+    tabuada.innerHTML = "";
+}
